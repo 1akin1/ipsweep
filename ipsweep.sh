@@ -8,6 +8,7 @@ echo "|   II    PPPPP    SSSSSS  w    W    W EEEEEEE EEEEEE PPPPP  |"
 echo "|   II    P             S  W    W    W E       E      P      |"
 echo "|   II    P             S  W    W    W E       E      P      |"
 echo "| IIIIII  P       SSSSSSS  WWWWWWWWWWW EEEEEEE EEEEEE P      |"
+echo "|                                                 -by 1akin1 |"
 echo "--------------------------------------------------------------"
 
 choices(){
