@@ -1,4 +1,6 @@
-Bash script for terminal GUI ipsweep
+Bash Script for Terminal GUI Ipsweep
+
+This script provides a terminal-based GUI for performing an IP sweep.
 
 How to use:
 
