@@ -1,15 +1,55 @@
-Bash Script for Terminal GUI Ipsweep
+📌 Overview
 
-This script provides a terminal-based GUI for performing an IP sweep.
+This is a Bash script that automates the process of finding active IP addresses in a local network. The script provides an option to automatically detect the local subnet or manually enter an IP address.
 
-How to use:
+🎯 Features
 
-Give permission:
+Automated Detection: Retrieves the local IP address and subnet automatically.
 
-chmod +x ipsweep.sh
+Manual Entry: Users can manually input an IP address if automatic detection fails.
 
-Run:
+Network Scanning: Pings all possible addresses within the subnet to find active hosts.
 
-./ipsweep.sh
+Simple UI: Displays available options and results in an easy-to-read format.
 
-Select option 1,2 or 3
+Asynchronous Execution: Runs the scanning process in parallel for efficiency.
+
+🛠 Requirements
+
+This script is designed for Linux/macOS systems with bash and ping installed.
+
+🚀 How to Run the Script
+
+Download or clone this repository.
+
+Open a terminal and navigate to the directory containing the script.
+
+Run the script using the command:
+
+chmod +x ip_scanner.sh
+./ip_scanner.sh
+
+📝 Usage Instructions
+
+Choose an option from the menu:
+
+1: Automatically detect and scan the local network.
+
+2: Manually enter an IP address to scan.
+
+3: Exit the script.
+
+If an IP address is found, confirm whether you want to start the scanning process.
+
+The script pings all possible addresses in the subnet and displays the active IPs.
+
+⚠️ Error Handling
+
+If no IP address is detected, an error message will be displayed.
+
+The script ensures only valid options can be selected.
+
+👨‍💻 Author
+
+1akin1
+
