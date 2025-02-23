@@ -76,15 +76,6 @@ for ip in `seq 1 254`; do
 done 
 cat ip.txt
 echo "---------------------------------------------------------------------------------------------------"
-read -p  "Do you want to start nmap?(Y/N): " confirm
-if [[ "$confirm" == [yY] || "$confirm" == [yY][eE][sS] ]];
-then
-for ip1 in $(cat ip.txt);do
-nmap $ip1;
-done
 rm ip.txt
-else
-rm ip.txt
-fi
 fi
 fi
