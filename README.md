@@ -4,18 +4,7 @@ A small, dependency-free Bash tool that discovers live hosts on a local `/24` su
 ICMP ping sweep. It detects your own IP (or takes one you type), pings every address in the
 network, and prints the ones that respond. Runs on Linux, macOS, and Windows (Git Bash).
 
-```
---------------------------------------------------------------
-| IIIIII  PPPPPP   SSSSSSS w    W    W EEEEEEE EEEEEE PPPPPP |
-|   II    P    P   S       w    W    W E       E      P    P |
-|   II    P    P   S       W    W    W E       E      P    P |
-|   II    PPPPP    SSSSSS  w    W    W EEEEEEE EEEEEE PPPPP  |
-|   II    P             S  W    W    W E       E      P      |
-|   II    P             S  W    W    W E       E      P      |
-| IIIIII  P       SSSSSSS  WWWWWWWWWWW EEEEEEE EEEEEE P      |
-|                                                 -by 1akin1 |
---------------------------------------------------------------
-```
+<img width="628" height="337" alt="a0" src="https://github.com/user-attachments/assets/8986b124-01d3-40b0-93e4-2715c25a589b" />
 
 ## Features
 
